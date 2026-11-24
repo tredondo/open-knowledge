@@ -78,7 +78,7 @@ body:
     attributes:
       label: How did you install OpenKnowledge?
       options:
-        - Desktop app (DMG)
+        - Desktop app (DMG / .deb / .rpm)
         - CLI (npm / npx)
         - Web app
         - Built from source
@@ -89,7 +89,7 @@ body:
     attributes:
       label: Version
       description: "Desktop: Help → About. CLI: run with --version."
-      placeholder: "e.g. 0.16.1"
+      placeholder: "e.g. 0.89.16"
     validations:
       required: true
   - type: textarea
